@@ -1,6 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:weather_app/presentation/pages/corona/corona_tracker_page.dart';
+import 'package:weather_app/presentation/pages/corona/statistics_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(primarySwatch: Colors.blue),
       debugShowCheckedModeBanner: false,
-      home: CoronaTrackerPage(),
+      home: StatisticsPage(),
     );
   }
 }
